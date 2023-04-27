@@ -5,13 +5,13 @@ function validarFormulario(evento) {
       alert('No has escrito nada en el nombre');
       return;
     }
-    
+
     var apellido = document.getElementById('apellido').value;
     if (apellido.length == 0) {
       alert('No has escrito nada en el apellido');
       return;
     }
-    
+
     var email = document.getElementById('email').value;
     function ValidateEmail(email) {
     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.email.value))
